@@ -36,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  
     // Âàëèäàöèÿ äàííûõ
     if (!preg_match('/^[\p{L}\s]+$/u', $name)) {
-    $errors[] = "Field name contains forbidden symbols";
+    $errors[] = "Поле Имя содержит недопустимые символы. Используйте только буквы русского и английского алфавитов";
 }
  
     if (!filter_var($email, FILTER_VALIDATE_EMAIL) || !preg_match('/@.*\.ru$/', $email)) {
-        $errors[] = "E-mail should be in format example@example.ru";
+        $errors[] = "Неверный формат e-mail";
     }
  
  
@@ -78,7 +78,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
  
         <?php if (empty($errors)) {
     echo '<div class="success-container">';
-    echo '<p class="success"> Saved Successfully </p>';
+    echo '<p class="success"> Изменения сохранены </p>';
     echo '</div>';
 } ?>
  
@@ -109,7 +109,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
                 С контрактом ознакомлен <input type="checkbox" name="agree" value="yes" <?= $user['agree'] == 'yes' ? 'checked' : '' ?> required ></label><br/>
 
  
-            <input type="submit" value="Save changes">
+            <input type="submit" value="Сохранить">
         </form>
         <p><a href="quitlog.php">Выход</a></p>
     </div>
