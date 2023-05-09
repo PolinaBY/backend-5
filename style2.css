@@ -48,19 +48,19 @@ input[type="submit"]:hover {
 }
  
 .alert-danger {
-    background-color: rgba(255, 76, 76, 0.8);
-    border-color: rgba(255, 76, 76, 0.8);
-    color: #ffffff;
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
 }
  
 .alert-success {
-    background-color: rgba(76, 255, 76, 0.8);
-    border-color: rgba(76, 255, 76, 0.8);
-    color: #ffffff;
+    background-color: #fff;
+    border-color: #fff;
+   color: black;
 }
 
 .success {
-  background-color: rgba(0, 255, 0, 0.8);
+  background-color: #fff;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 1rem;
