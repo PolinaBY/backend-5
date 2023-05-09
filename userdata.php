@@ -25,15 +25,15 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Data</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome!</h1>
+        <h1>Добро пожаловать</h1>
         <p>Login: <?php echo htmlspecialchars($login); ?></p>
         <p>Password: <?php echo htmlspecialchars($password); ?></p>
-        <p><a href="index.php">To index</a></p>
+        <p><a href="index.php"><=  Назад</a></p>
     </div>
 </body>
 </html>
