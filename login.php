@@ -25,7 +25,7 @@
             <input type="password" name="password" id="password" required>
  
             <input type="submit" value="Войти"> <br/>
-            <a href="index.php" class="auth-button">To index</a>
+            <a href="index.php" class="auth-button"><=  Назад</a>
         </form>
     </div>
 </body>
