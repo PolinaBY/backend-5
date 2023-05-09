@@ -35,11 +35,11 @@ form{
 }
 .success
 {
-    border: 2px solid green;
+    border: 2px solid #fff;
     border-radius: 5px;
     color: #000000;
     margin-bottom: 20px;
     text-align: center;
     font-size: 18px;
-    background-color: green;
+    background-color: #fff;
 }
