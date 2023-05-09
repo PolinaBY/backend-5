@@ -1,6 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("back2.gif");
     color: white;
 }
  
@@ -8,17 +6,15 @@ body {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: rgb(67 80 102);
+    background-color: #3ecec4;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #3ecec4;
 }
  
 h1 {
     font-size: 2rem;
     text-align: center;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: black;
     margin-bottom: 1rem;
 }
  
