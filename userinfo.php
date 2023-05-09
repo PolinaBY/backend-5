@@ -99,8 +99,8 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
             <label>Кол-во конечностей:</label>
             <label><input type="radio" checked="checked" name="legs" id="legs" value="2" <?= $user['legs'] == '1' ? 'checked' : '' ?> required>1</label>
             <label><input type="radio" name="legs" id="legs" value="2" <?= $user['legs'] == '2' ? 'checked' : '' ?> required>2</label>
-            <label><input type="radio" name="legs" id="legs" value="3" <?= $user['legs'] == '3' ? 'checked' : '' ?> required>3</label> <br/>
-          <label><input type="radio" name="legs" id="legs" value="4" <?= $user['legs'] == '4' ? 'checked' : '' ?> required>4</label> <br/>
+            <label><input type="radio" name="legs" id="legs" value="3" <?= $user['legs'] == '3' ? 'checked' : '' ?> required>3</label>
+          <label><input type="radio" name="legs" id="legs" value="4" <?= $user['legs'] == '4' ? 'checked' : '' ?> required>4</label> 
           <label><input type="radio" name="legs" id="legs" value="5" <?= $user['legs'] == '5' ? 'checked' : '' ?> required>5</label> <br/>
  
             <label for="bio">Биография:</label>
